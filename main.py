@@ -1,10 +1,3 @@
-# # from yandex_music import Client
-# #
-# # client = Client('y0_AgAAAAAoKDEzAAG8XgAAAADwY4s920wBqRNxRU-VnRP3_A3XPWicfJk')
-# # client.init()
-# #
-# # client.users_likes_tracks()[1].fetch_track().download('example.mp3')
-
 import os
 import json
 import asyncio
@@ -136,13 +129,4 @@ async def main():
 
 
 asyncio.run(main())
-
-
-# import discord
-# from discord.ext import commands
-# import asyncio
-# import json
-#
-# bot = commands.Bot(command_prefix='!', intents=discord.Intents.all(), case_insensitive=True, self_bot=True)
-#
 
